@@ -317,7 +317,7 @@ separators: ["\n\n","\n","。","！","？",...]  # 分隔符
 如有问题或建议，请通过以下方式联系：
 
 - 📧 Email: [170865@qq.com]
-- 💬 Issues: [GitHub Issues](https://github.com/your-username/your-repo/issues)
+- 💬 Issues: [GitHub Issues](https://github.com/snl12313/-Agent)
 
 ---
 
