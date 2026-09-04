@@ -150,7 +150,7 @@ embedding_model_name: qwen3.7-text-embedding
 - `.txt` - 纯文本文件
 - `.pdf` - PDF 文档
 
-示例数据结构：
+当前示例数据：
 ```
 data/
 ├── 01_退换货政策.txt
@@ -159,6 +159,8 @@ data/
 ├── 04_常见问题FAQ.txt
 └── 05_商品尺码推荐指南.txt
 ```
+
+> 💡 注意：系统会自动扫描 `data/` 目录下所有 `.txt` 和 `.pdf` 文件，无需手动配置。
 
 ### 6. 启动应用
 
