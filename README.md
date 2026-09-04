@@ -314,7 +314,7 @@ separators: ["\n\n","\n","。","！","？",...]  # 分隔符
 如有问题或建议，请通过以下方式联系：
 
 - 📧 Email: snl12313@users.noreply.github.com
-- 💬 Issues: [GitHub Issues](https://github.com/snl12313/-Agent/issues)
+- 💬 Issues: [GitHub Issues](https://github.com/snl12313/ecommerce-customer-service-agent)
 
 ---
 
