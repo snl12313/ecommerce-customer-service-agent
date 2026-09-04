@@ -109,8 +109,8 @@
 ### 2. 克隆仓库
 
 ```bash
-git clone <your-repo-url>
-cd 电商智能客服Agent
+git clone https://github.com/snl12313/ecommerce-customer-service-agent.git
+cd ecommerce-customer-service-agent
 ```
 
 ### 3. 安装依赖
@@ -316,7 +316,7 @@ separators: ["\n\n","\n","。","！","？",...]  # 分隔符
 如有问题或建议，请通过以下方式联系：
 
 - 📧 Email: snl12313@users.noreply.github.com
-- 💬 Issues: [GitHub Issues](https://github.com/snl12313/-Agent/issues)
+- 💬 Issues: [GitHub Issues](https://github.com/snl12313/ecommerce-customer-service-agent)
 
 ---
 
