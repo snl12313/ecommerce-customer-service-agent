@@ -1,0 +1,49 @@
+# ===========================================
+# 电商智能客服 Agent - Git 忽略配置
+# ===========================================
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# IDE 配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 日志文件
+log/
+*.log
+
+# 向量数据库数据
+chroma_db/
+
+# 环境变量与敏感配置
+.env
+.env.local
+
+# MD5 缓存文件（临时文件，可重新生成）
+md5.txt
+
+# 文档构建输出
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 临时文件
+*.tmp
+*.bak
+*.pickle

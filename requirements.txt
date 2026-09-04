@@ -1,0 +1,25 @@
+# ===========================================
+# 电商智能客服 Agent - 依赖包列表
+# ===========================================
+
+# --- 核心框架 ---
+langchain>=0.2.0
+langchain-openai>=0.1.0
+langgraph>=0.1.0
+streamlit>=1.30.0
+
+# --- 向量数据库与文档处理 ---
+langchain-chroma>=0.1.0
+chromadb>=0.4.0
+langchain-text-splitters>=0.2.0
+pypdf>=3.0.0
+
+# --- AI 服务 SDK ---
+dashscope>=1.0.0
+
+# --- 工具库 ---
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# --- 日志与其他 ---
+loguru>=0.7.0
