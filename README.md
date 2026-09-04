@@ -181,17 +181,17 @@ Agent：🤔 [思考：需要检索商品目录]
 
 **示例 2：查询订单**
 ```
-用户：我的订单 ORD2026082501 发货了吗？
+用户：我的订单 ORD20260825011 发货了吗？
 Agent：🔍 [正在查询订单信息...]
-       订单号：ORD2026082501
-       状态：已发货
-       物流：顺丰速运 SF1234567890
+       订单号：ORD20260825011
+       状态：已签收
+       物流：中通快递 ZT2026082500654
 ```
 
 **示例 3：申请退货**
 ```
-用户：我想退货，订单号 ORD2026082501
-Agent：✅ 检测到订单已签收，且 within 7 天退货期限
+用户：我想退货，订单号 ORD20260825011
+Agent：✅ 检测到订单已签收，且在 7 天退货期限内
        退货申请已提交！售后单号：RT20260904120001
 ```
 
@@ -217,7 +217,6 @@ Agent：✅ 检测到订单已签收，且 within 7 天退货期限
 │   ├── tools/                  # 工具定义
 │   │   ├── agent_tools.py      # 业务工具（RAG、订单查询等）
 │   │   └── middleware.py       # 中间件（监控、日志）
-│   └── __pycache__/
 ├── config/                     # 配置文件
 │   ├── chroma.yml              # 向量库配置
 │   ├── rag.yml                 # 模型配置
@@ -225,7 +224,6 @@ Agent：✅ 检测到订单已签收，且 within 7 天退货期限
 ├── data/                       # 数据目录
 │   ├── external/json/          # JSON 数据（订单等）
 │   └── *.txt                   # 知识库文档
-├── log/                        # 运行日志
 ├── model/                      # 模型工厂
 │   └── factory.py              # 模型初始化
 ├── prompts/                    # Prompt 模板
@@ -241,7 +239,6 @@ Agent：✅ 检测到订单已签收，且 within 7 天退货期限
 │   ├── logger_handler.py       # 日志处理器
 │   └── prompt_loader.py        # Prompt 加载器
 ├── app.py                      # Streamlit 入口
-├── md5.txt                     # 文件指纹缓存
 └── requirements.txt            # 依赖列表
 ```
 
@@ -316,8 +313,8 @@ separators: ["\n\n","\n","。","！","？",...]  # 分隔符
 
 如有问题或建议，请通过以下方式联系：
 
-- 📧 Email: [170865@qq.com]
-- 💬 Issues: [GitHub Issues](https://github.com/your-username/your-repo/issues)
+- 📧 Email: snl12313@users.noreply.github.com
+- 💬 Issues: [GitHub Issues](https://github.com/snl12313/-Agent/issues)
 
 ---
 
