@@ -109,8 +109,8 @@
 ### 2. 克隆仓库
 
 ```bash
-git clone <your-repo-url>
-cd 电商智能客服Agent
+git clone https://github.com/snl12313/ecommerce-customer-service-agent.git
+cd ecommerce-customer-service-agent
 ```
 
 ### 3. 安装依赖
